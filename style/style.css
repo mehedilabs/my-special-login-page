@@ -1,0 +1,81 @@
+body{
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  padding:0;
+  height: 100vh;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+main{
+  background-color: rgb(170, 135, 65);
+  width: 300px;
+  height: 350px;
+  border-radius: 50%;
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+  justify-content:center;
+  align-items:center;
+  border: 1px solid rgb(226, 226, 226);
+  margin: 5px;
+  padding: 10px;
+  box-shadow:3px 3px 30px rgb(138, 135, 135) ;
+}
+.heading{
+  margin:5px;
+  padding:1px;
+  text-align: center;
+}
+
+.inputGroup, label{
+  display: block;
+}
+.input{
+  border:1px solid black;
+  border-radius: 5px;
+  background-color: rgb(227, 228, 228);
+}
+.fpass{
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  padding:10px;
+  
+}
+.button button{
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: rgb(204, 204, 204);
+}
+  .or{
+    display: flex;
+    align-items: center;
+    gap:10px;
+  }
+.or::before, .or::after{
+  content:"";
+  flex:1;
+  height: 1px;
+  background-color: antiquewhite;
+}
+.withGoogle{
+background-color: rgb(57, 104, 170);
+display: flex;
+text-align: center;
+border-radius: 8px;
+padding:3px;
+margin:5px;
+cursor:pointer;
+}
+
+.glink{
+ text-decoration: none;
+ padding: 3px;
+ color:white
+}

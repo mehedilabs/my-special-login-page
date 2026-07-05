@@ -4,27 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login page</title>
+    <link rel="stylesheet" href="style/style.css" />
   </head>
   <body>
     <main>
-      <form action="">
-        <div>
+      <form>
+        <div class="heading">
           <h2>Welcome Back</h2>
           <p>Today is a nice day</p>
         </div>
 
-        <div class="input-gorup">
-          <label for="Email">Email:</label>
-          <input type="email" placeholder="Enter your email" />
+        <div class="inputGroup">
+          <label>Email:</label>
+          <input class="input" type="email" placeholder="Enter your email" />
         </div>
-        <div class="input-gorup">
-          <label for="password">Password:</label>
-          <input type="password" placeholder="Enter your password" />
+        <div class="inputGroup">
+          <label>Password:</label>
+          <input
+            class="input"
+            type="password"
+            placeholder="Enter your password"
+          />
         </div>
         <a class="fpass" href="#">Forget password?</a>
         <div class="button"><button type="submit">Sign In</button></div>
         <div class="or"><span>or</span></div>
-        <div class="with-google"><a href="#">Continue with Google</a></div>
+        <div class="withGoogle">
+          <a class="glink" href="#">Continue with Google</a>
+        </div>
       </form>
     </main>
   </body>
